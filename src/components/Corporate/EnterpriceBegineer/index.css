@@ -1,0 +1,164 @@
+
+.Enterprise-card-main-beginner-container{
+    padding:20px 80px 20px 80px;
+    
+}
+.Enterprise-card-main-text-container{
+    display:block;
+    height:max-content;
+}
+.Enterprise-card-beginner-main-heading{
+    font-family:"Roboto";
+    font-size: 16px;
+    margin-top:40px;
+    color:#196AE5;
+    display:block;
+}
+.Enterprise-card-beginner-sub-heading{
+    font-family:"Roboto";
+    font-size: 32px; 
+    margin:0px;
+    color:#000000DE;
+    font-weight:600;
+}
+.Enterprise-beginner-slider-container{
+    margin:0px;
+    height:max-content;
+}
+.Enterprise-beginner-slider{
+    padding:20px;
+    margin:0 auto;
+    margin-bottom:40px;
+    
+}
+.Enterprise-video-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Enterprise-review-main-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: #f2f2f3;
+}
+.Enterprise-review-of-recruiters{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+    
+}
+.Enterprise-review-of-recruiters-heading{
+    font-family:"Poppins",sans-serif;
+    font-size:32px;
+    font-weight:600;
+    margin:0px;
+    color:#000000DE;
+
+}
+.Enterprise-review-of-recruiters-description{
+    font-family:"Poppins",sans-serif;
+    font-size:16px;
+    margin-top:16px;
+    color:#00000099;
+}
+.Enterprise-review-of-recruiters-case-study{
+    font-family:"Poppins",sans-serif;
+    font-size:14px;
+    margin-top:16px;
+    color:#196AE5;
+}
+.Enterprise-review-of-partner{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+    background-color:#fff;
+    padding:20px;
+    border-radius:5px;
+}
+.Enterprise-review-of-partner-heading{
+    font-family:"Poppins",sans-serif;
+    font-size:20px;
+    font-weight:600;
+    margin:0px;
+    color:#000000DE;
+}
+.Enterprise-review-of-partner-description{
+    font-family:"Poppins",sans-serif;
+    font-size:14px;
+    margin-top:16px;
+    color:#00000099;
+}
+.Enterprise-review-of-partner-analytics{
+    font-family:"Poppins",sans-serif;
+    font-size:14px;
+    margin-top:16px;
+    color:#196AE5;
+}
+@media (max-width:767px){
+    .Enterprise-card-main-text-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .Enterprise-card-beginner-main-heading{
+        font-size:14px;
+    }
+    .Enterprise-card-beginner-sub-heading{
+        font-size:24px;
+    }
+    
+    .Enterprise-beginner-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .Enterprise-beginner-slider-container {
+        margin-top: 20px;
+    }
+    .Enterprise-video-sub-container{
+        display:none;
+    }
+    .Enterprise-card-main-beginner-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Enterprise-review-main-container{
+        display:flex;
+        flex-direction: column;
+        padding:5%;
+    }
+    .Enterprise-review-of-recruiters{
+        width:100%;
+    }
+    .Enterprise-review-of-partner{
+        width:100%;
+    }
+    .Enterprise-card-main-beginner-container{
+        padding:5%;
+    }
+    .Enterprise-review-of-recruiters-heading{
+        font-size:24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Enterprise-beginner-slider-container {
+        margin: 0;
+        overflow: hidden;
+        margin-top:20px;
+    }
+}
+@media (max-width:450px){
+    .Enterprise-beginner-slider-container {
+        height:300px;
+    }        
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.navEachCourseContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:500px;
+    align-items:center;
+    padding:30px 40px;
+    text-align:center;
+    gap:20px;
+}
+.navCertification{
+    font-family:"Roboto";
+    font-size:28px;
+    font-weight:600;
+}
+.navEachCourseHeading{
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:600;
+}
+.navEachCourseDescription{
+    font-family:"Roboto";
+    font-size:18px;
+}
+.Navcourse-intro-list-container{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: left;
+}
+.course-intro-list-container{
+    display: flex;
+    padding-left: 0px;
+}
+.course-intro-list-icon{
+    color: rgba(5, 245, 69, 0.925);
+    font-size: 18px;
+    margin-right: 20px;
+    display:flex;
+    align-items:center;
+}
+.course-intro-list-text{
+    font-size: 16px;
+    display:flex;
+    align-items:center;
+    font-family:"Roboto"
+}
+.NavCourseButtons{
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.NavExploreCourseButton{
+    border: none;
+    background: linear-gradient(to right,#0e39a9,  #1c74d4, #7cb4e4);
+    border-radius:5px;
+    padding:12px 20px 12px 20px;
+    color:#fff;
+    cursor:pointer;
+    font-weight:bold;
+}
+.NavExploreCourseButton:hover {
+    background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+    border: none;
+    color: #FFF;
+    transition: all .1s ease;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay:0.5s;
+  
+  }
+.NavRegisterNowButton{
+    border-radius:5px;
+    padding:10px 20px 10px 20px;
+    cursor:pointer;
+    font-weight:bold;
+    background-color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#FFF, #FFF) padding-box, linear-gradient(to right,#7cb4e4,#1c74d4,#0e39a9 ) border-box;
+    transition: all .5s ease;
+    border: 2.5px solid transparent;
+    color: #000;
+    background-color:transparent;
+
+}
+
+.NavRegisterNowButton:hover {
+    background: linear-gradient(to right, #196ae5, #196ae5) border-box;
+    border: 3px solid transparent;
+    color: #FFF;
+    transition: all .1s ease;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay:0s;
+  }

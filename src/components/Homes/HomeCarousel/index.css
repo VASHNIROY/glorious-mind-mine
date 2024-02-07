@@ -1,0 +1,34 @@
+.slick-dots li button:before {
+  color: #196AE5 !important;
+}
+
+/* Custom styles for the arrows */
+.slick-prev:before, .slick-next:before {
+  color: #196AE5 !important;
+  opacity: 1 !important;
+  font-size: 30px;
+  font-weight:500;
+}
+
+
+.carousel-slider-home{
+    margin-bottom:50px;
+    width:85vw;
+    margin-left:7.5%;
+    margin-right: 7.5%;
+}
+@media (max-width:972px){
+  .carousel-slider-home{
+    width: 90vw;
+    margin-right: 5%;
+  }
+}
+@media (max-width:512px){
+  .slick-prev:before, .slick-next:before {
+    color: #196AE5 !important;
+    opacity: 1 !important;
+    font-size: 24px;
+    font-weight:500;
+  }
+  
+}

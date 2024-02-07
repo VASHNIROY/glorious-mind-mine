@@ -1,0 +1,36 @@
+.courseWhyGloriousMindMineCard{
+    background-color: #e6f0ff;
+    max-width:250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:25px;
+    margin-bottom: 20px;
+    text-align:center;
+    max-height:max-content;
+    
+}
+
+.courseWhyGloriousMindMineImage{
+    font-size:70px;
+    color:#196AE5;
+}
+.courseWhyGloriousMindMineDescription{
+    font-size: 18px;
+    font-family:"Roboto";
+    height:30%;
+    color: #222;
+}
+
+@media (max-width:768px){
+    .courseWhyGloriousMindMineCard{
+        max-width:150px;
+        margin-left: 0px;
+    }.courseWhyGloriousMindMineDescription{
+        font-size: 12px;
+    }.courseWhyGloriousMindMineImage{
+        font-size:40px;
+    }
+}

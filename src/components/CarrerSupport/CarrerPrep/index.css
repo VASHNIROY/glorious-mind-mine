@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.carrerpreplistContainer{
+    padding:0px 80px 0px 80px;
+    margin-bottom: 20px;
+}
+.carrerpreplistSubContainer{
+    display:flex;
+    justify-content: space-between;
+}
+.careerPrepCounsilingImageContainer{
+    width:25%;
+}
+.careerPrepCounsilingImage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.carrerpreplistContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:60%;
+}
+.carrerpreplistheading{
+    font-family:"Roboto";
+    font-size:24px;
+    font-weight:600;
+}
+.carrerpreplistContent{
+    font-family:"Roboto";
+    font-size:16px;
+    margin-top: 10px;
+}
+@media (max-width:767px){
+    .carrerpreplistSubContainer{
+        display:flex;
+        flex-direction: column;
+    }
+    .careerPrepCounsilingImageContainer{
+        width:100%;
+    }.careerPrepCounsilingImage{
+        width:100%;
+        margin:10px 0px 10px 0px;
+    }.carrerpreplistContainer{
+        padding:0px 20px 0px 20px;
+    }.carrerpreplistContainer1{
+        width:100%;
+    }
+}
